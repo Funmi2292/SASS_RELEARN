@@ -43,11 +43,42 @@ strong{
  }
 }
 
+h3{
+font-size: 35px;
+strong{
+ color: $primaryColor;
+ }
+}
+h4{
+font-size: 75px;
+strong{
+ color: $primaryColor;
+ }
+}
+h5{
+font-size: 75px;
+strong{
+ color: $primaryColor;
+ }
+}
+p{
+    font-family: $primaryFont;
+    margin: $marginSm;
+}
+
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
 
-.inner{
+.inner {
 display: flex;
 justify-content: space-between;
  }
